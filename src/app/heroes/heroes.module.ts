@@ -9,6 +9,9 @@ import { ListadoComponent } from './pages/listado/listado.component';
 import { HeroesRoutingModule } from './heroes-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '../material/material.module';
+import { HeroeComponentDetail } from './components/heroe/heroe.component';
+import { ImagePipe } from './pipe/image.pipe';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +19,14 @@ import { MaterialModule } from '../material/material.module';
     BuscarComponent,
     HomeComponent,
     HeroeComponent,
-    ListadoComponent
+    HeroeComponentDetail,
+    ListadoComponent,
+    ImagePipe
   ],
   imports: [
     CommonModule,
     HeroesRoutingModule,
+    FormsModule,
     FlexLayoutModule,
     MaterialModule
   ]
