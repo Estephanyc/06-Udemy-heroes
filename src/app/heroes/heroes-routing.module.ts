@@ -12,7 +12,7 @@ const routes: Routes = [
     component: HomeComponent,
     children: [
       { path: 'listado', component: ListadoComponent },
-      { path: 'agregar', component: AgregarComponent },
+      { path: 'agregar/:id', component: AgregarComponent },
       { path: 'editar/:id', component: AgregarComponent },
       { path: 'buscar', component: BuscarComponent },
       { path: ':id', component: HeroeComponent },

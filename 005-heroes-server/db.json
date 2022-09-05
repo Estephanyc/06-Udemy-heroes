@@ -166,6 +166,24 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "superhero": "test",
+      "alter_ego": "",
+      "publisher": "DC Comics",
+      "first_appearance": "j",
+      "characters": "",
+      "alt_img": "",
+      "id": "1NXp--L"
+    },
+    {
+      "superhero": "test",
+      "alter_ego": "",
+      "publisher": "DC Comics",
+      "first_appearance": "j",
+      "characters": "",
+      "alt_img": "l",
+      "id": "lJu583V"
     }
   ]
 }
