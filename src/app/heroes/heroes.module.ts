@@ -12,6 +12,7 @@ import { MaterialModule } from '../material/material.module';
 import { HeroeComponentDetail } from './components/heroe/heroe.component';
 import { ImagePipe } from './pipe/image.pipe';
 import { FormsModule } from '@angular/forms';
+import { DialogComponent } from './components/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     HeroeComponent,
     HeroeComponentDetail,
     ListadoComponent,
-    ImagePipe
+    ImagePipe,
+    DialogComponent
   ],
   imports: [
     CommonModule,
